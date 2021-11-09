@@ -11,16 +11,14 @@ body {
     font-weight: 400;
   }
   
-  h2 {
+  h1,h2 {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
-    text-transform: uppercase;
     display:inline-block;
     margin: 40px 8px 10px 8px; 
-    color: #cccccc;
+    color: #727070;
   }
-  
   #username{
     margin:5px;
   }
@@ -74,11 +72,11 @@ body {
   
   /* TABS */
   
-  h2.inactive {
+  h1.inactive,h2.inactive {
     color: #cccccc;
   }
   
-  h2.active {
+  h1.active,h2.active {
     color: #0d0d0d;
     border-bottom: 2px solid #5fbae9;
   }
@@ -121,7 +119,7 @@ body {
     transform: scale(0.95);
   }
   
-  input[type=text] {
+  input[type=text],input[type=password] {
     background-color: #f6f6f6;
     border: none;
     color: #0d0d0d;
@@ -264,6 +262,5 @@ body {
   } 
   
   #icon {
-    width:60%;
+    width:40%;
   }
-  
