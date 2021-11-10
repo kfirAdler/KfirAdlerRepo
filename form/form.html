@@ -8,21 +8,25 @@
         <title>Login Form</title>
     </head>
     <body>
-        <div class="wrapper fadeInDown">
-            <div id="formContent">
+        <div class="wrapper">
+            <div class="container center">
                 <h1>Login</h2><br>
                 <img src="key.png" id="icon" alt="User Icon" />
-                <form action="">
-                    <input type="text" id="username" placeholder="Username" name="login"><br>
-                    <input type="password" id="password" placeholder="Password" name="login">
-                    <input type="submit" class="fadeIn fourth" value="Login"><br>
+                <form name="Form">
+                    <input type="text" id="username" placeholder="Username" name="username">
+                    <input type="password" id="password" placeholder="Password" name="password"><br>
                     <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label><br>
+                    <input type="submit" name="login" id="login" value="Login">
+                    <span class="success">Login Successful!</span>
+                </form>
+                <div class="item">
                     <a href="#" class="logo fa fa-facebook"></a></span>
                     <a href="#" class="logo fa fa-linkedin"></a></span>
                     <a href="#" class="logo fa fa-twitter"></a></span>
                     <a href="#" class="logo fa fa-google"></a></span>
-                </form>
+                </div>    
             </div>
         </div>
     </body>
+    <script src="form.js"></script>
 </html>
